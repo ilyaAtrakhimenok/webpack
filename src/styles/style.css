@@ -1,0 +1,22 @@
+@import 'roboto.css';
+@import "~normalize.css";
+
+
+.container{
+    padding-top: 2rem;
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.container h1 {
+    font-family: 'Roboto';
+}
+
+.logo {
+    background-image: url("@/assets/img.png");
+    background-size: cover;
+    height:  300px;
+    width: 300px;
+}
